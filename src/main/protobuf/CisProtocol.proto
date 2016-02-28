@@ -1,0 +1,54 @@
+package cz.tronevia.api.cis.protocol;
+
+option java_outer_classname = "ApiCisProtos";
+
+message ExistsEntry {
+    required string code = 1;
+    required bool exists = 2;
+}
+
+message ValidEntry {
+    required string code = 1;
+    required bool valid = 2;
+}
+
+//queries
+
+message CheckSuklCodeExists {
+    repeated string codes = 1;
+}
+
+message CheckAtcCodeExists {
+    repeated string codes = 1;
+}
+
+message CheckDgCodeExists {
+    repeated string codes = 1;
+}
+
+message CheckSuklCodeIsValid {
+    repeated string codes = 1;
+}
+
+message ReturnInvalidSuklCodes {
+    repeated string codes = 1;
+}
+
+message ReturnMissingCodes {
+    repeated string codes = 1;
+}
+
+//responses
+
+message ExistsResponse {
+    required ExistsEntry results = 1;
+}
+
+message InvalidCodesResponse {
+    repeated string invalidCodes = 1;
+}
+
+message MissingCodesResponse {
+    repeated string missingCodes = 1;
+}
+
