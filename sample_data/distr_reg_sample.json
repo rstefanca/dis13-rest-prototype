@@ -1,0 +1,37 @@
+[ {
+    "typPohybu": "D",
+    "typOdberatele": "TEST",
+    "kodSUKL": "0136002",
+    "mnozstvi": 1,
+    "sarze": "AAA"
+    },
+    {
+    "typPohybu": "D",
+    "typOdberatele": "TEST",
+    "kodSUKL": "0126158",
+    "mnozstvi": 1,
+    "sarze": "AAA"
+    },
+    {
+    "typPohybu": "D",
+    "typOdberatele": "TEST",
+    "kodSUKL": "0126157",
+    "mnozstvi": 1,
+    "sarze": "AAA"
+    },
+    {
+    "typPohybu": "D",
+    "typOdberatele": "TEST",
+    "kodSUKL": "0007987",
+    "mnozstvi": 1,
+    "sarze": "AAA"
+    },
+    {
+    "typPohybu": "D",
+    "typOdberatele": "TEST",
+    "kodSUKL": "0216479",
+    "mnozstvi": 1,
+    "sarze": "AAA"
+    }
+    
+]
